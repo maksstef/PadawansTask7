@@ -7,11 +7,11 @@ namespace PadawansTask7
         public static void OrderStringsByLength(string[] array)
         {
             // put your code here
-            if(array.Length == 0)
+            if(array[0] == null)
             {
                 throw new ArgumentNullException();
             }
-            else if (array[0] == null)
+            else if (array[0] == "" && array[1] == "")
             {
                 throw new ArgumentNullException();
             }
